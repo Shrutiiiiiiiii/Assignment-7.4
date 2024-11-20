@@ -9,5 +9,17 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Assign7_4';
+
+  public Name : string = ""
+
+  public LowerCase : string = ""
+
+
+  Upper(){
+    this.Name = "Marvellous Infosystems"
+  }
+
+  Lower(){
+    this.LowerCase = "Marvellous Infosystems"
+  }
 }
